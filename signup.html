@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSU Cyber Club</title>
+    <link rel="stylesheet" href="mystyle.css">
+  <script>
+    function myFunction() {
+    var x = document.getElementById("frm1");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+      text += x.elements[i].value + "<br>";
+    }
+   document.getElementById("demo").innerHTML = text;
+  }
+  </script>
+</head>
+<body class="main">
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul><br>
+<center>
+    <div>
+        <h1 class="main">Please Sign In</h1>
+        <br>
+        <form id="SUD" action="">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    </form>
+      <button onclick="myFunction()">Try it</button>
+    </div>
+</center>
+</body>
+</html>
+
+</body>
+</html>

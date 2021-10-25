@@ -1,0 +1,41 @@
+.main {
+    background-color: DarkSlateGray;
+    font-family: monospace;
+}
+lightblue {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+topbar-link {
+    font-size: 15px;
+
+}
+
+p {
+  font-family: font-family: monospace;
+  font-size: 20px;
+}
